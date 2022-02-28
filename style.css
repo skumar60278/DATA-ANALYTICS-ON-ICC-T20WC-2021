@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.03);
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+ul{
+    padding: 12px;
+    background-color: blue;
+    width: 100%;
+    display: inline-flex;
+    position: sticky;
+    top: 0;
+}
+ul > li{
+    list-style-type: none;
+    padding: 10px 35px;
+    position: relative;
+    overflow: hidden;
+    transition: all .8s;
+    cursor: pointer;
+}
+ul > li:hover::after{
+    transition: all .8s;
+    transform: translateX(0);
+}
+ul > li::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+}
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* MAIN CONTAINER */
+#main > div{
+    transition: all .8s;
+    height: 100vh;
+}
+
+/* section 1 & 2 & 3 & 4 */
+#section1,
+#section2,
+#section3,
+#section4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+#section1 > div,
+#section2 > div,
+#section3 > div,
+#section4 > div{
+    color: navy;
+    display: grid;
+    place-items: center;
+}
+
+#section1 > div{
+    background-color: #100549;
+    color: #fff;
+}
+
+#section2 > div,
+#section4 > div{
+    background-color: #fff;
+}
+
+/* all section heading */
+div > h3{
+    /* border: 5px ridge red; */
+}
+
+/* all section paragraph */
+div > p{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 5px 25px;
+    /* border: 2px ridge red; */
+}
+
+/* all section images */
+div > img{
+    width: 100%;
+    /* border: 5px ridge yellow; */
+}
+
+#topButton{
+    position: absolute;
+    background-color: blue;
+    color: #fff;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 20px;
+    padding: 15px 10px;
+}
