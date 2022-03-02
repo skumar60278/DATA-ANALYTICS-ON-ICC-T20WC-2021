@@ -1,5 +1,5 @@
 # Data Analytics on ICC T20 WORLD CUP 2021
-![Data Analytics on ICC T20 WORLD CUP 2021](LOGO.JPEG)
+![Data Analytics on ICC T20 WORLD CUP 2021](LOGO.jpeg)
 
 Our web application is all about performance of batsman through out the tournament and their dismissals.
 
@@ -15,8 +15,8 @@ Our web application is all about performance of batsman through out the tourname
 -   Data Integration
 
 ## Output
--   ![Data Analytics on ICC T20 WORLD CUP 2021](TEAM.PNG)
--   ![Data Analytics on ICC T20 WORLD CUP 2021](Batsman_names.PNG)
+-   ![Data Analytics on ICC T20 WORLD CUP 2021](TEAM.png)
+-   ![Data Analytics on ICC T20 WORLD CUP 2021](Batsman_names.png)
 
 ## Team members
 -   Sudhanshu
