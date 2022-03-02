@@ -1,5 +1,5 @@
 # Data Analytics on ICC T20 WORLD CUP 2021
-![Data Analytics on ICC T20 WORLD CUP 2021](LOGO.jpeg)
+![Data Analytics on ICC T20 WORLD CUP 2021](logo.jpeg)
 
 Our web application is all about performance of batsman through out the tournament and their dismissals.
 
