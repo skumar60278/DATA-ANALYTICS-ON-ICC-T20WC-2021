@@ -16,7 +16,7 @@ Our web application is all about performance of batsman through out the tourname
 
 ## Output
 -   ![Data Analytics on ICC T20 WORLD CUP 2021](TEAM.PNG)
--   ![Data Analytics on ICC T20 WORLD CUP 2021](Batsman names.PNG)
+-   ![Data Analytics on ICC T20 WORLD CUP 2021](Batsman_names.PNG)
 
 ## Team members
 -   Sudhanshu
